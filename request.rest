@@ -1,0 +1,36 @@
+POST http://localhost:3000/employeeBasicDetails
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoicmF2aSIsImlhdCI6MTY1MTU5MjAzOH0.l9Vq9lGe39SF_3Vaq1URjUb5twR4ZAJVOsG8bsC4PXo
+
+{
+    "first_name" : "ravi",
+    "last_name" : "pothuka",
+    "father_name": "krishna",
+    "emp_number": "307999",
+    "dob": "12-09-1995",
+    "designation_id": "12",
+    "level_id": "2",
+    "payroll_id": "5",
+    "company_branch_id": "3",
+    "personalEmail": "rkreddy129@gmail.com"
+}
+
+###
+
+POST http://localhost:3000/registration
+content-type: application/json
+
+{
+    "username" : "ravi",
+    "password" : "pothuka"
+}
+
+###
+POST http://localhost:3000/login
+content-type: application/json
+Authorization: Bearer 
+
+{
+    "username" : "ravi",
+    "password" : "pothuka"
+}
